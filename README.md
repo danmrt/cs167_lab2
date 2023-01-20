@@ -40,11 +40,17 @@ Program does not run after changing the default file system to HDFS. I get the e
 
 * (Q5) Use your program to test the following cases and report the running time for each case.
 
-** i.Copy a file from local file system to HDFS
+*i*.Copy a file from local file system to HDFS
 `Copied 2271210910 bytes from 'file:/C:/cs167/workspace/dmart245_lab2/AREAWATER.csv' to 'hdfs:/user/dmart245/AREAWATER.csv' in 17.824414 seconds`
 
-** ii.Copy a file from HDFS to local file system
+*ii*.Copy a file from HDFS to local file system
 `Copied 2271211520 bytes from 'hdfs:/user/dmart245/AREAWATER.csv' to 'file:/C:/cs167/workspace/dmart245_lab2/AREAWATER_2.csv' in 26.026642 seconds`
 
-** iii,Copy a file from HDFS to HDFS
+*iii*.Copy a file from HDFS to HDFS
 `Copied 2271211520 bytes from 'hdfs:/user/dmart245/AREAWATER.csv' to 'hdfs:/user/dmart245/AREAWATER2.csv' in 27.939696 seconds`
+
+File System Copying | Time(seconds)
+--- | --- 
+Local to HDFS | 17.82
+HDFS to Local | 26.03
+HDFS to HDFS  | 27.94
